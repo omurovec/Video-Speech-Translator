@@ -22,7 +22,7 @@ def get_length(input_video):
 
 def slow_video(adj, input_vid):
     os.system(
-        "ffmpeg -i " + input_vid + ' -filter:v "setpts=' + str(adj) + '*PTS" output.mov'
+        "ffmpeg -i " + input_vid + ' -filter:v "setpts=' + str(adj) + '*PTS" output.mp4'
     )
 
 
