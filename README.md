@@ -1,4 +1,4 @@
-[logo](https://github.com/omurovec/Video-Speech-Translator/blob/master/logo.png)
+![logo](https://github.com/omurovec/Video-Speech-Translator/blob/master/logo.png)
 # About
 
 This idea stemmed from the recent popularity of deep fakes and the goal of this project was to apply this type of technology in a beneficial way rather than the harmful ways it could potenetially be used. This tool allows the user to process a video clip with an audio or text file of an alternate language and lipsync the video to that language.
@@ -13,9 +13,9 @@ Since this project was limited to 24 hours, I was only able to generate <5sec cl
 
 This tool is for research purposes only, please see the following dependencies for information on licensing:
 
-[Wav2Lip](https://github.com/Rudrabha/Wav2Lip)
-[Multilingual_Text_to_Speech](https://github.com/Tomiinek/Multilingual_Text_to_Speech)
-[WaveRNN](https://github.com/Tomiinek/WaveRNN)
+* [Wav2Lip](https://github.com/Rudrabha/Wav2Lip)
+* [Multilingual_Text_to_Speech](https://github.com/Tomiinek/Multilingual_Text_to_Speech)
+* [WaveRNN](https://github.com/Tomiinek/WaveRNN)
 
 # Usage
 
