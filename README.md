@@ -2,9 +2,9 @@
 
 This idea stemmed from the recent popularity of deep fakes and the goal of this project was to apply this type of technology in a beneficial way rather than the harmful ways it could potenetially be used. This tool allows the user to process a video clip with an audio or text file of an alternate language and lipsync the video to that language.
 
-This could be used in a real life situation where a political figure is delivering a speech and convert that to any native language for a wider reach or even be used to fix poor audio dubbing in movies and TV. Example [here.]()
+This could be used in a real life situation where a political figure is delivering a speech and convert that to any native language for a wider reach or even be used to fix poor audio dubbing in movies and TV. Example [here.](https://youtu.be/SpxiFlRgTxg)
 
-If a translated audio source is not available, the user could also provide a `.txt` file of the translated text and specify the language to generate an artifical voice. Although the artificial voice is not ideal, with enough data, the voice could be trained to mimic the original speaker. Example of generated voice [here.]()
+If a translated audio source is not available, the user could also provide a `.txt` file of the translated text and specify the language to generate an artifical voice. Although the artificial voice is not ideal, with enough data, the voice could be trained to mimic the original speaker. Example of generated voice [here.](https://youtu.be/BpzdlwWc8GU)
 
 Since this project was limited to 24 hours, I was only able to generate <5sec clips as examples.
 
