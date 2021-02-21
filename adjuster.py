@@ -1,3 +1,4 @@
+import sys
 import os
 import subprocess
 
@@ -22,7 +23,11 @@ def get_length(input_video):
 
 def slow_video(adj, input_vid):
     os.system(
-        "ffmpeg -i " + input_vid + ' -filter:v "setpts=' + str(adj) + '*PTS" output.mp4'
+        "ffmpeg -i "
+        + input_vid
+        + ' -filter:v "setpts='
+        + str(adj)
+        + '*PTS" temp/adjusted.mp4'
     )
 
 
@@ -30,7 +35,6 @@ def get_slow_adj(audio_len, vid_len):
     return audio_len / vid_len
 
 
-adj_amt = get_slow_adj(get_length("french.mp3"), get_length("input.mov"))
-print(adj_amt)
-slow_video(adj_amt, "input.mov")
-print("Done.")
+def adj_vid(audio, video):
+    adj_amt = get_slow_adj(get_length(audio), get_length(video))
+    slow_video(adj_amt, video)
