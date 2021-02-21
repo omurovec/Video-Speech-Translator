@@ -31,7 +31,7 @@ if not os.path.exists(audio):
 adjuster.adj_vid(audio, video)
 
 # Run Wav2Lip model
-# os.system("python ./dependencies/Wav2Lip/inference.py --checkpoint_path ./dependencies/Wav2Lip/checkpoints/wav2lip.pth --face ./temp/adjusted.mp4 --audio " + audio)
+os.system("python ./dependencies/Wav2Lip/inference.py --checkpoint_path ./dependencies/Wav2Lip/checkpoints/wav2lip.pth --face ./temp/adjusted.mp4 --audio " + audio)
 
 # move to results folder
 os.system("mv -f ./dependencies/Wav2Lip/results/result_voice.mp4 ./results/result.mp4")

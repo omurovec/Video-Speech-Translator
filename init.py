@@ -18,3 +18,15 @@ if not os.path.exists("./dependencies/Wav2Lip/"):
         + Wav2Lip_face_weight
     )
     os.system("pip install -r ./dependencies/Wav2Lip/requirements.txt")
+
+# Setup Multilingual TTS
+if not os.path.exists("./dependencies/Multilingual_Text_to_Speech"):
+    os.system("git clone " + Multilingual_Text_to_Speech + " ./dependencies/Multilingual_Text_to_Speech")
+    os.system("curl -o ./dependencies/checkpoints/generated_switching.pyt " + tacotron)
+    os.system("pip install -r ./dependencies/Multilingual_Text_to_Speech/requirements.txt")
+
+# Setup WaveRNN
+if not os.path.exists("./dependencies/WaveRNN"):
+    os.system("git clone " + WaveRNN + " ./dependencies/WaveRNN/")
+    os.system("curl -o ./dependencies/checkpoints/wavernn_weight.pyt " + WaveRNN_weight)
+    os.system("pip install -r ./dependencies/WaveRNN/requirements.txt")
