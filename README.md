@@ -1,3 +1,4 @@
+## BC-Hacks 2021 Submission
 ![logo](https://github.com/omurovec/Video-Speech-Translator/blob/master/logo.png)
 # About
 
